@@ -1,0 +1,340 @@
+.content{
+	margin: 38px auto;
+	width: 1205px;
+	background-color: #fff;
+	display: flex;
+	padding: 0 63px 0 12px;
+}
+body{
+	background-color: #e4ebf3;
+}
+.content .nav ul{
+	width: 232px;
+}
+.content .nav ul a{
+	display: block;
+	text-align: center;
+	width: 229px;
+	border: 1px solid #999;
+	height: 45px;
+	line-height: 45px;
+	font-size: 20px;
+	background-color: #d9d8e0;
+	margin-bottom: 10px;
+}
+.content .nav a{
+	text-decoration: none;
+	color: #000000;
+}
+#nav-li a{
+	color: #fff;
+	background-color: #d61518;
+}
+.content .nav ul li:first-child a{
+	height: 80px;
+	font-size: 28px;
+	line-height: 80px;
+	background-color: #d61518;
+}
+.content .nav ul li:first-child a{
+	color: #fff;
+}
+
+/* 索引 */
+.indexs{
+	background: url(../images/子页-索引.png);
+	width: 896px;
+	height: 55px;
+	margin-left: 77px;
+}
+.indexs p{
+	font-size: 16px;
+	height: 55px;
+	line-height: 55px;
+	margin-right: 12px;
+	text-align: right;
+	color: #999;
+	font-weight: bold;
+}
+.indexs p span{
+	color: #000000;
+}
+.indexs p:hover{
+	cursor: pointer;
+	color: #000000;
+}
+
+.enterprise{
+	overflow: hidden;
+	width: 894px;
+	margin: 0 0 50px 77px;
+	border: 1px solid #999;
+}
+.enterprise img{
+	width: 896px;
+}
+.enterprise p{
+	font-size: 16px;
+	line-height: 28px;
+	color: #000000;
+	text-indent: 32px;
+	padding: 0 10px 40px 25px;
+}
+
+
+/* 美味菜品 */
+.dishes{
+	width: 894px;
+	margin: 32px 0 50px 77px;
+}
+.dishes ul{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+.dishes ul li{
+	width: 231px;
+	text-align: center;
+	
+}
+.dishes ul li img{
+	width: 223px;
+	height: 190px;
+	padding: 4px;
+}
+
+.dishes ul li .photo{
+	width: 231px;
+	height: 198px;
+	overflow: hidden;
+	border: 1px solid #D9D8E0;
+}
+
+.dishes ul li:hover .photo{
+	background-color: #D61518;
+	border: 1px solid #D9D8E0;
+}
+.dishes ul li:hover .photo img{
+	transform: scale(1.2);
+	transition: all 1s; 
+}
+.dishes ul li:hover span{
+	color: #d61518;
+	font-weight: bold;
+	border-bottom: 1px solid #d61518;
+}
+.dishes ul li span{
+	font-size: 18px;
+	line-height: 30px;
+	/* font-weight: bold; */
+	margin-top: 10px;
+	/* color: #d61518; */
+	padding-bottom: 1px;
+	/* text-decoration:underline; 下划线 */
+	/* border-bottom: 1px solid #d61518; */
+}
+
+/* 页码 */
+.page{
+	margin-top: 50px;
+display: flex;
+justify-content: flex-end;
+}
+.page span{
+	text-align: center;
+	border: 1px solid #999;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: bold;
+	width: 50px;
+	margin-right: 8px;
+}
+.page span:first-child{
+	background-color: #D61518;
+	color: #fff;
+}
+.page span:hover{
+	background-color: #D61518;
+	color: #fff;
+}
+/*资质荣誉*/
+.honor{
+	width: 870px;
+	padding: 0 12px;
+	margin: 32px 0 50px 77px;
+}
+.honor ul{
+	display: flex;
+	justify-content: space-between;
+}
+.honor ul li{
+	width: 360px;
+	text-align: center;
+}
+.honor ul li p{
+	font-size: 16px;
+	margin: 0 3px;
+	font-weight: bold;
+}
+.honor ul li:hover p{
+	color: #D61518;
+	text-decoration:underline; 
+}
+
+/* .honor ul:first-child li:first-child p{
+	color: #D61518;
+	font-weight: bold;
+	text-decoration:underline; 
+} */
+.honor ul li span{
+	font-size: 12px;
+	color: #999;
+}
+#photo{
+	width: 360px;
+	height: 260px;
+	overflow: hidden;
+	margin-bottom: 18px;
+}
+#photo:hover img{
+	transform: scale(1.2);
+	transition: all 0.5s ease-in; 
+}
+.nav-hover{
+	background-color: #d61518;
+	color: #FFFFFF;
+}
+
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+
+.age-top{
+	display: flex;
+	justify-content: space-between;
+}
+.content .age{
+	width: 894px;
+	margin: 32px 0 50px 77px;
+	
+}
+.age-left{
+	width: 500px;
+	height: 375px;
+	overflow: hidden;
+	position: relative;
+}
+.content .age-left img{
+	width: 500px;
+}
+.age-list ul li{
+	margin-bottom: 18.75px;
+	width: 374px;
+	height: 112.5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.age-list ul li p{
+	word-break: break-all;
+	word-wrap: break-word;
+	font-size: 14px;
+	line-height: 30px;
+}
+.age-list img{
+	width: 150px;
+}
+.age-title{
+	margin-right: 15px;
+	position: relative;
+}
+.age-title span{
+	color: #999999;
+	font-size: 12px;
+	position: absolute;
+	bottom: 0;
+	
+}
+
+.bottom-left i{
+	font-size: 26px;
+}
+.bottom-left em{
+	color: #999999;
+	font-size: 12px;
+}
+.bottom-left i,em{
+	display: block;
+	text-align: center;
+	width: 64px;
+}
+.age-bottom{
+	margin-top: 20px;
+}
+.age-bottom ul li{
+	display: flex;
+	padding: 25px 0;
+	border-top: 1px solid #ddd;
+}
+.bottom-left{
+	padding-top: 8px;
+	margin-right: 20px;
+	width: 64px;
+	height: 64px;
+	background-color: #f3f3f3;
+	
+}
+.bottom-right span{
+	font-size: 16px;
+}
+.bottom-right p{
+	font-size: 12px;
+	color: #999999;
+	line-height: 30px;
+}
+.age-new{
+	position: absolute;
+	bottom: 50px;
+	left: 30px;
+}
+.age-new span{
+	width: 100px;
+	height: 1px;
+	border-top: 1px solid #f3f3f3;
+}
+.age-left .age-new>a{
+	line-height: 40px;
+	color: #fff;
+	padding-bottom: 15px;
+	font-size: 20px;
+	text-decoration: none;
+}
+.age-new p{
+	padding-top: 10px;
+	width: 100px;
+	border-top: 1px solid #fff;
+	color: #fff;
+	font-size: 12px;
+}
+.age-bottom ul li:hover{
+	cursor: pointer;
+}
+.age-bottom ul li:hover .bottom-left{
+	
+	background-color: #D61518;
+	color: #fff;
+}
+.age-list ul li:hover{
+	transform: translateX(30px);
+	transition: all 1s;
+	-webkit-transition: all 1s;
+
+}
+.age-top .age-left:hover img{
+	transform: scale(1.2);
+	transition: all 1.2s;
+	-webkit-transform: all 1.2s;
+}

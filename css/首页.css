@@ -1,0 +1,269 @@
+.header {
+	background-color: #d61518;
+}
+
+.head,
+.box-1,
+.box-3,
+.footer {
+	margin: 0 auto;
+	width: 1280px;
+	padding: 0 12px;
+}
+
+.head {
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header img {
+	padding-top: 25px;
+	height: 125px;
+}
+
+.header ul {
+	display: flex;
+	padding-top: 90px;
+}
+
+.header ul li {
+	padding: 0 10px;
+}
+
+.header .active a{
+	color: #fff;
+}
+
+.header ul a{
+	line-height: 28px;
+	font-size: 24px;
+	text-decoration: none;
+	color: #000000;
+}
+
+/* banner */
+.banner{
+	position: relative;
+}
+.banner img {
+	width: 100%;
+}
+
+/*content----公司简介*/
+.content .box-head {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+	margin-bottom: 27px;
+}
+
+.box-title p {
+	color: #d61518;
+	line-height: 30px;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	margin-left: 10px;
+	border-bottom: 2px solid #d61518;
+}
+
+.Company {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Companys {
+	width: 896px;
+}
+
+.Companys p {
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 2em;
+}
+
+/*美味食品*/
+.box2-titles {
+	color: #fff;
+	text-align: center;
+}
+.food {
+	background: url(../images/柳螺香-美味食品背景.png) no-repeat center;
+	background-size: 100% 453px;
+	width: 100%;
+	height: 453px;
+}
+
+.foods div ul {
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
+}
+
+.foods div ul li {
+	width: 230px;
+}
+.foods div ul li p {
+	margin-top: 5px;
+}
+
+.foods .food-top ul{
+	width:1000px;
+}
+.foods .food-bottom ul{
+	width:615px;
+}
+.foods span{	border: 2px solid #fff;
+	display: block;
+	width: 228px;
+	height: 170px;
+	overflow: hidden;
+}
+.foods img{
+	width: 228px;
+	height: 170px;
+}
+.foods img:hover{
+	transform: scale(1.2);
+	transition: all 0.8s;
+}
+.foods .food-top ul {
+	/* justify-content: space-around; */
+	padding: 27px 128px 15px;
+}
+.foods .food-bottom ul {
+padding: 0 323px;
+}
+/* .food-top ul li {
+	width: 230px;
+} */
+
+
+/*新闻动态*/
+.news-top {
+	margin-bottom: 22px;
+}
+
+.news-top,
+.news-bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.news {
+	margin: 0 58px;
+}
+
+.new {
+	width: 520px;
+	padding: 22px 25px 32px 25px;
+	height: 30px;
+	background-color: #f3f3f3;
+}
+
+.newtop {
+	display: flex;
+	justify-content: space-between;
+	/* margin-bottom: 22px; */
+}
+
+.newtop p {
+	line-height: 16px;
+	font-size: 16px;
+	/* color: #ff0000; */
+}
+.newtop p:hover{
+	border-bottom: 1px solid red;
+	color: #D61518;
+}
+
+.time,
+.newbook {
+	color: #999;
+	font-size: 12px;
+}
+
+#time,
+.newbottom  a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+#time,
+.newbottom a:hover{
+	color: #D61518;
+	font-weight: bold;
+}
+
+.newbottom {
+	padding-top: 20px;
+	display: flex;
+	font-size: 12px;
+}
+
+/*footer    底部*/
+.footer {
+	padding-top: 58px;
+	width: 100%;
+	margin-top: 50px;
+	height: 207px;
+	background-color: #f2c921;
+}
+
+.footers {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-left-nav {
+	display: flex;
+}
+
+.footers .footer-left .footer-left-list{
+	line-height: 24px;
+	font-size: 12px;
+	margin-bottom: 18px;
+}
+.risk p{
+	color: red;
+	font-weight: bold;
+}
+.footer-left-nav li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.footer-right ul {
+	display: flex;
+	justify-content: space-around;
+	width: 360px;
+	padding: 0 10px;
+	text-align: center;
+}
+
+.footer-right ul li p {
+	font-size: 14px;
+	line-height: 30px;
+
+}
+.banner .dan{
+	position: absolute;
+	top: 513px;
+	left: 90px;
+	width:100px;
+	animation: dan 2s ease-in-out infinite;
+}
+@keyframes dan{
+	0%{
+		
+	}
+	50%{
+		top: 300px;
+	}
+	100%{
+		top: 513px;
+	}
+}
